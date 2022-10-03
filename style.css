@@ -1,0 +1,90 @@
+/*
+	Plugin Name: BE Simple Shortcode
+	Plugin URI: http://www.Businessequip.co.uk/plugins/
+	Description: Simple Shortcode Plugin 
+	Author: Jim Drew
+	Author URI: http://www.jimdrew.co.uk
+
+	Version: 1.0.0
+
+	License: GNU General Public License v2.0 (or later)
+	License URI: http://www.opensource.org/licenses/gpl-license.php
+*/
+
+#bookreviews{
+	margin: 10px 0;
+}
+
+#bookreviews .bookreview {
+	background-color: #fff;
+	border-radius: 3px;
+	border: 1px solid #ececec;
+	box-shadow: 0 1px #ececec;
+	float: left;
+	margin-left: 2.564102564102564%;
+	padding: 40px;
+	width: 31.623931623931625%;
+}
+
+#bookreviews .bookreview:nth-child(3n+1) {
+	clear: both;
+	margin-left: 0;
+}
+
+.customfield{
+	display: block;
+	clear: both;
+}
+
+.customfield > .label{
+	width: 25%;
+	float: left;
+}
+
+.customfield .value{
+	width: 75%;
+	float: left;
+}
+
+.ctabox {
+	background: #8fabdb;
+	padding:20px;
+}
+
+
+.ctabox:hover {
+	background: #c26f2b;
+	cursor:pointer;
+}
+
+.ctabox:before {
+	content: " ";
+	display: table;
+}
+
+.ctabox::after {
+	clear: both;
+	content: " ";
+	display: table;
+}
+
+.ctabox-text {
+	font-size: 32px;
+	line-height: 1.1;
+	float:left;
+	width : 60%;
+}
+
+a .ctabox-text{
+	color:#fff;
+}
+
+.ctabox-image {
+	float:right;
+	width : 40%;
+}
+
+.ctabox-image img{
+	height:100px;
+}
+
